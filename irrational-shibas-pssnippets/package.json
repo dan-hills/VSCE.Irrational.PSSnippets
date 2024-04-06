@@ -1,0 +1,21 @@
+{
+  "name": "irrational-shibas-pssnippets",
+  "displayName": "Irrational.Shibas.PSSnippets",
+  "description": "A collection of Powershell related snippets",
+  "icon": "images/irrational-shibas-pssnippets.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "powershell",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
